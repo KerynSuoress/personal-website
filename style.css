@@ -1,0 +1,83 @@
+* { margin: 0; padding: 0; }
+
+#logo {
+  height: 50px;
+}
+.nav-item > * {
+  color: whitesmoke;
+}
+.permanent-marker {
+  font-family: "Permanent Marker", cursive;
+}
+
+.libre {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.backgroundimg {
+  background-image: url("./assets/devushka_art_siurrealizm_121807_2560x1440.jpg");
+}
+
+.color1 {
+  background-color: #332941;
+}
+
+.white {
+  color: #F8E559;
+}
+
+hr {
+  border: dashed #F8E559 2px;
+  width: 4%;
+  margin-left: 48%;
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+.whitesmoke {
+  color: whitesmoke;
+}
+
+.samsara {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+.gradient-background-1 {
+  background: linear-gradient(300deg, #3B3486, #332941, #864AF9);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.gradient-background-2 {
+  background: linear-gradient(300deg, #864AF9, #332941, #864AF9);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
